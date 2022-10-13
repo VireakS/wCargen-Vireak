@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "wCargen",
+    "slug": "wCargen",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.wcargen.wcargen",
+      "versionCode": 2,
+      "blockedPermissions": ["android.permission.ACCESS_FINE_LOCATION"],
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "./metro.config.js",
+      "sourceExts": ["js", "jsx", "ts", "tsx", "svg"]
+    }
+  
+  }
+}
